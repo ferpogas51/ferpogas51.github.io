@@ -700,7 +700,8 @@ font-size: 14px;
 .tittle__cursive{
 	font-size: 100%;
 	font-family: cursivee;
-	font-weight:;
+	font-weight:600;
+	letter-spacing: 3px;
 }
 .main__img{
 	width: 18%;
@@ -831,15 +832,16 @@ font-size: 14px;
     color:var(--grey-3);
     padding-bottom: 1.25em;
 }
-.aboutMe__title h2{
-    line-height: 135%;	
+.aboutMe__title h2{	
 	font-size:2em;
-	letter-spacing: 2px;
+	padding-bottom: 6px;
 }
 .aboutMe__title h3{
 	font-size: 1.625em;
     color: var(--silver);
     font-family: cursivee;
+    text-align: center;
+    letter-spacing: 3px;
 }
 .strong__3{
 	color: var(--grey-1);
