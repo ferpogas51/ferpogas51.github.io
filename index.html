@@ -48,6 +48,7 @@
     <meta name="theme-color" content="#ffffff">
 	<script defer src="js/menu.js"></script>
 	<script defer src="js/slides.js"></script>
+    <script defer src="js/transiciones.js"></script>
 </head>
 <body>
 <header class="topheader">
@@ -73,16 +74,16 @@
 	</div>
 	<div class="header__text--content">
 		<div class="header__text--padding window__glass">	
-			<div class="header__text--hi">¡Hola!</div>
-		    <div class="header__text--name"><h2>Soy Fernando Porras</h2></div>
-		    <div class="header__text--free"><h1>Diseñador web, freelance</h1></div>
+			<div class="header__text--hi t1" id="z1">¡Hola!</div>
+		    <div class="header__text--name"><h2 class="t2" id="z2">Soy Fernando Porras</h2></div>
+		    <div class="header__text--free t3" id=z3><h2>Diseñador web, freelance</h2></div>
             <div class="header__text--space"></div>
             <div class="header__text">
                 <p>Y voy a diseñarte una <strong><span class="strong__1">web con gancho, atractiva y moderna</span></strong> que recoja tu esencia.</p>
                 <p><strong><span class="strong__1">Que cargue rápido</span></strong>, marcando desde el primer momento la diferencia.</p>
 		        <p><strong><span class="strong__1">Y optimizada para SEO</span></strong>, para que te encuentre quien te busque… y también quien no.</p>	
             </div>
-            <div class="button">
+            <div class="button t22" id="z22">
             	<a href="#contact" class="button__a">¡Quiero que seas mi diseñador web!</a>
             </div>
         </div>        
@@ -100,17 +101,17 @@
 <main>
 <section class="section__background--second" id="main">
 	<div class="content__maxWidth">
-		<div class="main__tag">
+		<div class="main__tag" id="tag">
 			<h2>¿Qué te ofrezco?</h2>
 		</div>
 		<div class="main__text--content">
-		    <div class="main__text--1">Buscas <strong><span class="strong__1">digitalizarte </span></strong>y llevar tu negocio al siguiente nivel,</div>
+		    <div class="main__text--1 t4" id="z4">Buscas <strong><span class="strong__1">digitalizarte </span></strong>y llevar tu negocio al siguiente nivel,</div>
 
-		    <div class="main__text--2">Conozco los distintos <strong><span class="strong__1">recursos web </span></strong> y de <strong><span class="strong__1">diseño</span></strong> para, </div>
+		    <div class="main__text--2 t5" id="z5">Conozco los distintos <strong><span class="strong__1">recursos web </span></strong> y de <strong><span class="strong__1">diseño</span></strong> para, </div>
 
-		    <div class="main__text--3">hacer de tu <strong><span class="strong__1">página</span></strong>, un espacio donde  puedas mostrarte de la <span class="strong__2">mejor manera posible y ADAPTADA</span> a los <strong><span class="strong__1">nuevos cambios</span></strong>.</div>
+		    <div class="main__text--3 t6" id="z6">hacer de tu <strong><span class="strong__1">página</span></strong>, un espacio donde  puedas mostrarte de la <span class="strong__2">mejor manera posible y ADAPTADA</span> a los <strong><span class="strong__1">nuevos cambios</span></strong>.</div>
 
-		    <div><span class="tittle__cursive">Y yo estoy aquí para ayudarte en el proceso.</span></div>
+		    <div><span class="tittle__cursive1 t7" id="z7">Y yo estoy aquí para ayudarte en el proceso.</span></div>
 	    </div>
 	    <div class="main__img">
 	    	<img src="imagenes/servicios1.svg">
@@ -120,7 +121,7 @@
 <section class="section__background--second" id="aboutMe">
 	<div class="content__maxWidth--85">
 	    <div class="aboutMe__content">
-		    <div class="aboutMe__text--content">
+		    <div class="aboutMe__text--content t8" id="z8">
 			    <div class="aboutMe__title">
 				    <h2>¿ Mi especialidad como</h2>
 			        <h3>diseñador web ?</h3>
@@ -137,7 +138,7 @@
                 </div>
             </div>    
 		    <div class="aboutMe__img">
-			    <img src="imagenes/sobremi.jpg">
+			    <img src="imagenes/sobremi.jpg" alt="" id="z9" class="t9">
 		    </div>
 	    </div>
 	</div>
@@ -149,7 +150,7 @@
 		    <h3>una página web con éxito</h3>
 	    </div>
 	    <div class="services__flex--content">
-		    <div class="services__box--content">
+		    <div class="services__box--content t10" id="z10">
 			    <div class="services__hover--content">
 				    <div class="services__img">
 					    <img src="imagenes/servicios1.svg">
@@ -164,7 +165,7 @@
             	    <p>	Que cargue rápido...el 70% de los usuarios deja una página web y la abandona si esta no carga dentro de los primeros 5 segundos</p>
                 </div>
 		    </div>
-		    <div class="services__box--content">
+		    <div class="services__box--content t11" id="z11">
 			    <div class="services__hover--content">
 				    <div class="services__img">
 					    <img src="imagenes/servicios2.svg">
@@ -180,7 +181,7 @@
             	</p>
                 </div>
 		    </div>
-		    <div class="services__box--content">
+		    <div class="services__box--content t12" id="z12">
 			    <div class="services__hover--content">
 				    <div class="services__img">
 					    <img src="imagenes/servicios3.svg">
@@ -196,7 +197,7 @@
             	    El punto de referencia para tus potenciales clientes.</p>
                 </div>
 		    </div>
-		    <div class="services__box--content2">
+		    <div class="services__box--content2 t13" id="z13">
 			    <div class="services__hover--content">
 				    <div class="services__img">
 					    <img src="imagenes/servicios4.svg">
@@ -270,7 +271,7 @@
 </section>
 <section class=section__digitizeText--content id="digitize">
 	<div class="content__maxWidth">
-	    <div class="digitize__text--content">
+	    <div class="digitize__text--content t14" id="z14">
 		    <li class="fas fa-quote-left"></li>
 		    <h2 class="digitize__text--one">Aún no te decides a digitalizarte</h2>
 		    <h3 class="digitize__text--two tittle__cursive">y a tener un sitio web propio....</h3>
@@ -330,7 +331,7 @@
 </section>
 <section class="section__digitizeText--content padding__bottom--1" id="digitize">
 	<div class="content__maxWidth">
-	    <div class="digitize__text--content">
+	    <div class="digitize__text--content t15" id="z15">
 		    <li class="fas fa-quote-left"></li>
 		    <h2 class="digitize__text--one">Comenzara siendo una idea,</h2>
 		    <h3 class="digitize__text--two tittle__cursive">continuara siendo un proyecto, </h3>
@@ -345,17 +346,17 @@
 	<div class="content__maxWidth">    
 		<div class="position__flex--content">
 			<div class="position__img">
-		        <img src="imagenes/portada-4.jpg">
+		        <img src="imagenes/portada-4.jpg" id="z16">
 	        </div>
 			<div class="position__text--content">
 			    <div class="position__tittle">
 	    	        <h2>¿Cómo puedo ayudarte a posicionarte mejor?</h2>
 	            </div>
 	            <div class="position__text">
-		            <p>Conozco las herramientas en SEO para posicionar mejor tu página, sin recurrir a publicidad o costos extra</p>		   
-		            <p>Me gusta surfear por internet para estar al día en diseño y hacer de tu página moderna y profesional</p>
-		            <p>Diseño de interfaz agradable para el usuario y con formato móvil para que te encuentren en cualquier dispositivo</p>
-		            <p>Conozco los diferentes recursos para implementar y plasmar tu idea a la realidad o en este caso al mundo digítal. </p>
+		            <p class="t17" id="z17">Conozco las herramientas en SEO para posicionar mejor tu página, sin recurrir a publicidad o costos extra</p>		   
+		            <p class="t18" id="z18">Me gusta surfear por internet para estar al día en diseño y hacer de tu página moderna y profesional</p>
+		            <p class="t19" id="z19">Diseño de interfaz agradable para el usuario y con formato móvil para que te encuentren en cualquier dispositivo</p>
+		            <p class="t20" id="z20">Conozco los diferentes recursos para implementar y plasmar tu idea a la realidad o en este caso al mundo digítal. </p>
 	            </div>
 	        </div>
         </div>   
@@ -364,7 +365,7 @@
 <section class="section__background--second" id="proposal">
 	<div class="content__maxWidth">
 	<div class="proposal__content">
-	    <div class="proposal__tittle">
+	    <div class="proposal__tittle t23" id="z23">
 		    <h2>Cuál es mi propuesta para tí</h2>
 	    </div>
 	    <div class="proposal__flex--content">
@@ -422,7 +423,7 @@
 </section>
 <section class="section__background--second" id="contact">
 	<div class="content__maxWidth">
-		<div class="contact__tittle--content">
+		<div class="contact__tittle--content t21" id="z21">
 		    <div class="contact__tittle">
 		        <h2>¡PONGÁMONOS EN MARCHA!</h2>
 	        </div>
