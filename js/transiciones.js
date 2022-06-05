@@ -4,8 +4,6 @@ const transition2 = document.getElementById(`z2`)
 const transition3 = document.getElementById(`z3`)
 const transition4 = document.getElementById(`z4`)
 const transition5 = document.getElementById(`z5`)
-const transition6 = document.getElementById(`z6`)
-const transition7 = document.getElementById(`z7`)
 const transition8 = document.getElementById(`z8`)
 const transition9 = document.getElementById(`z9`)
 const transition10 = document.getElementById(`z10`)
@@ -47,8 +45,6 @@ observer.observe(transition2);
 observer.observe(transition3);
 observer.observe(transition4);
 observer.observe(transition5);
-observer.observe(transition6);
-observer.observe(transition7);
 observer.observe(transition8);
 observer.observe(transition9);
 observer.observe(transition10);
