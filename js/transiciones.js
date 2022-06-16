@@ -20,6 +20,8 @@ const transition20 = document.getElementById(`z20`)
 const transition21 = document.getElementById(`z21`)
 const transition22 = document.getElementById(`z22`)
 const transition23 = document.getElementById(`z23`)
+const transition25 = document.getElementById(`z25`)
+const transition26 = document.getElementById(`z26`)
 
 
 
@@ -61,3 +63,5 @@ observer.observe(transition20);
 observer.observe(transition21);
 observer.observe(transition22);
 observer.observe(transition23);
+observer.observe(transition25);
+observer.observe(transition26);
