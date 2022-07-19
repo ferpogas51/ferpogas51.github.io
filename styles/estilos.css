@@ -50,11 +50,6 @@
   --black-2: #282525;
 }
 
-body {
-  font-size: 16px;
-  overflow-x: hidden;
-}
-
 a,
 h1,
 h2,
@@ -105,14 +100,20 @@ ul li {
   line-height: 135%;
 }
 
+body {
+  font-size: 16px;
+}
+
+
 /*estilos generales*/
 html {
+  overflow-x: hidden;
   scroll-padding-top: 20px;
   scroll-behavior: smooth;
 }
 
 html::-webkit-scrollbar {
-  width: 0.8rem;
+  width: 0.6rem;
 }
 
 html::-webkit-scrollbar-track {
@@ -120,8 +121,8 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #fff;
-  border-radius: 5rem;
+  background: var(--topnav__bar);
+  border-radius: 4px;
 }
 
 /*section[id] {
